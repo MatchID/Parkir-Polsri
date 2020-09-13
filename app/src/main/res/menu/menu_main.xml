@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.admin.MainActivity">
+    <item
+        android:id="@+id/action_vr"
+        android:orderInCategory="100"
+        android:title="Verifikasi Laporan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_tl"
+        android:orderInCategory="100"
+        android:title="Tindak Lanjut"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sl"
+        android:orderInCategory="100"
+        android:title="Laporan Salah"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_histori"
+        android:orderInCategory="100"
+        android:title="Histori Tindakan"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
